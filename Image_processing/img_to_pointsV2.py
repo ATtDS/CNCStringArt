@@ -21,7 +21,7 @@ def image_to_points(image_path, output_size, num_points):
         points = points[np.random.choice(len(points), num_points, replace=False)]
 
     # Normalize points to the range [0, 1]
-    points_normalized = points / np.array(output_size)
+    points_normalized = points 
 
     return points_normalized
 
